@@ -1,13 +1,14 @@
-# gaming-env-wrapper
+# gaming_env_wrapper
 
 `gaming_env_wrapper.sh` is a small shell wrapper to control Proton, DXVK, MangoHUD and some CachyOS-related game options using **short environment toggles** in Steam launch options (or from Lutris).
 
-It solves two main problems:
+It solves a few problems:
 
 - Some env vars set in **Lutris** don’t always reach **Steam/Proton** reliably.
 - Writing huge per-game env strings in Steam like  
   `PROTON_ENABLE_HDR=1 DXVK_HDR=1 PROTON_FSR4_RDNA3_UPGRADE=4.0.2 MANGOHUD=1 ...`  
   is annoying and unreadable.
+  The idea is: one script, with short toggles, that you can reuse across games and launchers.
 
 With this wrapper you can do:
 
