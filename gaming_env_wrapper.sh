@@ -1,6 +1,17 @@
 #!/bin/sh
 #
-# gaming_env_wrapper.sh
+# gaming_env_wrapper.sh Proton/DXVK/MangoHUD env wrapper
+# Copyright (C) 2025 furbacca
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details.
 #
 # Wrapper to control Proton / DXVK / MangoHUD / CachyOS options
 # via short toggles in Steam launch options.
