@@ -1,4 +1,4 @@
-# gaming_env_wrapper
+# gaming_env_wrapper (gENVW)
 
 `gaming_env_wrapper.sh` is a small shell wrapper to control Proton, DXVK, MangoHUD and some CachyOS-related game options using **short environment toggles** in Steam launch options (or from Lutris).
 
