@@ -20,8 +20,11 @@ genvw %command%
 
 and the script will translate those short toggles into the correct Proton / DXVK / Wine env variables.
 
-> **Note:** If you prefer, you can still name the file `gaming_env_wrapper.sh` and symlink it to `genvw`.  
-> The README assumes the main entrypoint is called `genvw`.
+> **Note:**  
+> - In this repository the script file is named `gaming_env_wrapper.sh`.  
+> - During installation you typically copy it to `$HOME/bin/genvw` so the command is simply `genvw`.  
+> - Optionally you can also create a compatibility symlink named `gaming_env_wrapper.sh`.  
+> - All examples below assume the command you run is `genvw`.
 
 ---
 
@@ -63,18 +66,18 @@ and the script will translate those short toggles into the correct Proton / DXVK
 
 1. **Place the script**
 
-   Example layout:
+   In the repo, the file is called `gaming_env_wrapper.sh`.  
+   Install it as `genvw` in your `$HOME/bin`:
 
    ~~~bash
    mkdir -p "$HOME/bin"
-   cp genvw "$HOME/bin/"
+   cp gaming_env_wrapper.sh "$HOME/bin/genvw"
    chmod +x "$HOME/bin/genvw"
    ~~~
 
-   If you’re still using the old name:
+   Optional **compatibility symlink** so both names work:
 
    ~~~bash
-   # Optional compatibility symlink
    ln -s "$HOME/bin/genvw" "$HOME/bin/gaming_env_wrapper.sh"
    ~~~
 
